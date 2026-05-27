@@ -11,7 +11,8 @@ color:#222;
 }
 
 nav{
-background:#002b5c;
+background: url('logo.webp') left/cover; 
+background: #002b5c;
 padding:15px;
 text-align:center;
 }
@@ -24,11 +25,16 @@ font-weight:bold;
 }
 
 header{
-background:url('hangar.jpg') center/cover;
+background: center/cover;
 padding:80px 20px;
 text-align:center;
 color:white;
 }
+
+.ciac .header{
+background: url('ciac.webp') center/cover;
+padding:80px 20px;
+}  
 
 .logo{
 width:140px;
@@ -67,6 +73,7 @@ margin-top:20px;
 }
 
 footer{
+background: url('logo.webp) left/cover;
 background:#00152f;
 color:white;
 text-align:center;
