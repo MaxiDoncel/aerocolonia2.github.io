@@ -83,6 +83,17 @@ padding:20px;
 margin-top:30px;
 }
 
+.contenedor-columnas {
+  display: flex;
+  gap: 20px;
+}
+
+.columna {
+  flex: 1;
+  background:#00152f;
+  padding: 20px;
+}
+
 @media(max-width:768px){
 nav a{
 display:block;
