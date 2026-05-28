@@ -34,6 +34,11 @@ color:white;
 width:140px;
 }
 
+.logo a{
+width:20px;
+align:left;
+}
+
 .container{
 max-width:1000px;
 margin:auto;
